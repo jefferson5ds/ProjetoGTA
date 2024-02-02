@@ -1,0 +1,39 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    background-color:black;
+    display: flex;
+    gap: 15px;
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 20px
+}
+.home{
+    display: flex;
+    position: relative;
+}
+.imagem-fundo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+	object-fit: cover;
+}
+.informacoes{
+    background-color: aqua;
+    display: block;
+    position: absolute;
+    min-width: calc(100vh - 80px);
+
+}
+.informacoes .lista-de-jogos {
+    width: 400px;
+    height: 100%;
+}
